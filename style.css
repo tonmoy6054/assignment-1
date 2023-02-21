@@ -1,0 +1,108 @@
+ .container {
+    position: relative;
+    
+    color: white;
+  }
+  
+ 
+  /* */
+  .header-container {
+    position: absolute;
+    top: 200px;
+    right: 16px;
+    margin-right: 50px;
+    text-align: right;
+    color: black;
+  }
+  .header-description{
+    position: relative;
+    top: 8px;
+    right: 16px;
+    margin-left: 700px;
+  }
+  
+
+  .button{
+    background-color:rgb(94, 2, 2);
+    margin-right: 200px;
+    color: aqua;
+    font-size: medium;
+    
+  }
+  
+  
+ .container-main{
+    display: flex;
+   
+ }
+
+ .main-identify{
+    margin-top: 300px;
+ }
+ .main-section-header{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+ }
+.goals-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+   
+    
+}
+.main-2nd-container{
+  background: url(images/watch.png);
+  position: relative;
+  height: 50vh;
+  
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.button{
+  margin-top: 80px;
+  font-size: medium;
+  font-weight: 800;
+  
+}
+.color-overlay{
+  background: linear-gradient(to top right, blue, red);
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  position: absolute;
+}
+  /* footer section styles */
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    background-color: black;
+    color: white;
+    
+  }
+  .footer-section-1{
+    margin-top: 100px;
+    text-align: left;
+    width: 50%;
+    margin-left: 100px;
+   
+  }
+  .footer-section-1-description{
+    text-align: left;
+  }
+  .footer-section-2{
+    margin-top: 100px;
+    padding-right: 100px;
+    
+  }
+  .icons{
+    margin-bottom: 100px;
+  }
